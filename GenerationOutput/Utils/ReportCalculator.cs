@@ -1,9 +1,5 @@
 ﻿using GenerationOutput.Helpers;
 using GenerationOutput.Model;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Numerics;
 
 namespace GenerationOutput.Utils
 {

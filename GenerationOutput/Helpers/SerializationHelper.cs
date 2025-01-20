@@ -17,7 +17,7 @@ namespace GenerationOutput.Helpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error during deserialization: {ex.Message}");
+                Console.WriteLine($"Error during xml deserialization: {ex.Message}");
                 throw;
             }
         }
@@ -34,7 +34,7 @@ namespace GenerationOutput.Helpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error during Serialization: {ex.Message}");
+                Console.WriteLine($"Error during xml Serialization: {ex.Message}");
                 throw;
             }
         }
@@ -51,7 +51,7 @@ namespace GenerationOutput.Helpers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error during deserialization: {ex.Message}");
+                Console.WriteLine($"Error during json deserialization: {ex.Message}");
                 throw;
             }
         }
