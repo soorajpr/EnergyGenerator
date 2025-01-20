@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Type": "Wind",
+    "Location": "Offshore",
+    "ValueFactor": "Low"
+  },
+  {
+    "Type": "Wind",
+    "Location": "Onshore",
+    "ValueFactor": "High"
+  },
+  {
+    "Type": "Gas",
+    "ValueFactor": "Medium",
+    "EmissionFactor": "Medium"
+  },
+  {
+    "Type": "Coal",
+    "ValueFactor": "Medium",
+    "EmissionFactor": "High"
+  }
+]
